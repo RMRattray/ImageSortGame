@@ -1,0 +1,42 @@
+[
+    {
+        "folder":"bugs",
+        "groupdesc":"Identify the true bugs (members of the order Hemiptera).  In this activity, all the true bugs are members of the suborder, Heteroptera",
+        "files":
+            [
+                {"filename":"ant.jpg", "name":"Ant<br/><i>Camponotus flavomarginatus</i>", "isSetMember":false },
+                {"filename":"assassin_bug.jpg", "name":"Assassin bug<br/><i>Pselliopus barberi</i>", "isSetMember":true },
+                {"filename":"grasshopper.jpg", "name":"Grasshopper<br/><i>Tropidacris collaris</i>", "isSetMember":false },
+                {"filename":"ladybug.jpg", "name":"Ladybug<br/><i>Coccinella undecimpuctata</i>", "isSetMember":false },
+                {"filename":"leaf_bug.jpg", "name":"Leaf bug<br/><i>Rhabdominis striatellus</i>", "isSetMember":true },
+                {"filename":"leaf_footed_bug.jpg", "name":"Leaf-footed bug<br/><i>Leptoglossus nymph</i>", "isSetMember":true },
+                {"filename":"maybug.jpg", "name":"Maybug<br/><i>Melolontha melolontha</i>", "isSetMember":false },
+                {"filename":"rhino_beetle.jpg", "name":"Rhinoceros beetle<br/><i>Oryctes nasicornis</i>", "isSetMember":false },
+                {"filename":"seed_bug.jpg", "name":"Seed bug<br/><i>Titanus giganteus</i>", "isSetMember":true },
+                {"filename":"stink_bug.jpg", "name":"Stink bug<br/><i>Atelocera</i>", "isSetMember":true },
+                {"filename":"titan_beetle.jpg", "name":"Titan beetle<br/><i>Titanus giganteus</i>", "isSetMember":false },
+                {"filename":"flower_bug.jpg", "name":"Flower bug<br/><i>Orius insidiosus</i>", "isSetMember":true }
+            ],
+        "show_captions":true
+    }, 
+    {
+        "folder":"presidents",
+        "groupdesc":"Identify the true bugs (members of the order Hemiptera).  In this activity, all the true bugs are members of the suborder, Heteroptera",
+        "files":
+            [
+                {"filename":"taylor.jpg", "name":"Zachary Taylor<br/>1849-1850, Whig", "isSetMember":true },
+                {"filename":"fremont.jpg", "name":"John C Frémont<br/>Republican nominee, 1856", "isSetMember":false },
+                {"filename":"cass.jpg", "name":"Lewis Cass<br/>Democratic nominee, 1848", "isSetMember":false },
+                {"filename":"Fillmore.jpg", "name":"Millard Fillmore<br/>1850-1853, Whig", "isSetMember":true },
+                {"filename":"king.jpg", "name":"Rufus King<br/>Federalist nominee, 1816", "isSetMember":false },
+                {"filename":"clay.jpg", "name":"Henry Clay<br/>National-Republican nominee, 1832</br>Whig nominee, 1844", "isSetMember":false },
+                {"filename":"monroe.jpg", "name":"James Monroe<br/>1817-1825, Democratic-Republican", "isSetMember":true },
+                {"filename":"pierce.jpg", "name":"Franklin Pierce<br/>1853-1857, Democrat", "isSetMember":true },
+                {"filename":"polk.jpg", "name":"James K Polk<br/>1845-1849, Democrat", "isSetMember":true },
+                {"filename":"hayes.jpg", "name":"Rutherford B Hayes<br/>1877-1881, Republican", "isSetMember":true },
+                {"filename":"tilden.jpg", "name":"Samuel J Tilden<br/>Democratic nominee, 1876", "isSetMember":false },
+                {"filename":"scott.jpg", "name":"Winfield Scott<br/>Whig nominee, 1852", "isSetMember":false }
+            ],
+        "show_captions":true
+    }
+]
