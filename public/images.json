@@ -21,7 +21,7 @@
     }, 
     {
         "folder":"presidents",
-        "groupdesc":"Identify the true bugs (members of the order Hemiptera).  In this activity, all the true bugs are members of the suborder, Heteroptera",
+        "groupdesc":"According to legend, Ronald Reagan was once rejected for a film role for not looking presidential.  Can you identify presidents based on looks alone?",
         "files":
             [
                 {"filename":"taylor.jpg", "name":"Zachary Taylor<br/>1849-1850, Whig", "isSetMember":true },
