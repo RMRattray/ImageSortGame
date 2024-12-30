@@ -9,8 +9,8 @@ function IdentImage( { source, name, isSetMember, showCaptions, guessed, guess, 
 
     return(
     <div className="w-full display: inline-block p-2">
-        <Image alt="Mystery image" src={source} width = "861" height = "757" onClick = { () => guess(i, isSetMember) }/><br/>
-        <div className={clsx('h-8 text-white', {'bg-green-500': isSetMember && guessed[i], 'bg-red-500': !isSetMember && guessed[i], 'bg-gray-500': !guessed[i] })}>
+        <Image alt="Mystery image" width="0" height="0" src={source} className='h-32 w-full' onClick = { () => guess(i, isSetMember) }/><br/>
+        <div className={clsx('h-auto text-white', {'bg-green-500': isSetMember && guessed[i], 'bg-red-500': !isSetMember && guessed[i], 'bg-gray-500': !guessed[i] })}>
           <h2 className="text-white text-center">
               {guessed[i] || showCaptions ? name : ""}
           </h2>
