@@ -37,6 +37,6 @@
                 {"filename":"tilden.jpg", "name":"Samuel J Tilden<br/>Democratic nominee, 1876", "isSetMember":false },
                 {"filename":"scott.jpg", "name":"Winfield Scott<br/>Whig nominee, 1852", "isSetMember":false }
             ],
-        "show_captions":true
+        "show_captions":false
     }
 ]
