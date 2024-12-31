@@ -54,7 +54,7 @@ export default function Image_Box( { groupdesc, groupdata, groupfolder, showcapt
         </div>
         <div className="grid grid-flow-row grid-cols-4">
           { groupdata.map( (imgstat, index) => { return(
-            <IdentImage key={index} source={"/" + groupfolder + "/" + imgstat["filename"]} name={imgstat["name"]}
+            <IdentImage key={index} source={"/sort_game_images/" + groupfolder + "/" + imgstat["filename"]} name={imgstat["name"]}
               isSetMember={imgstat["isSetMember"]} showCaptions={showcaptions} guessed={guessed} guess={guess} i={index}
             />
           ) })}

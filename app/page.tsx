@@ -1,18 +1,9 @@
-import { promises as fs } from 'fs';
 import { PageLinkBox } from '@/components/linkbox';
-
-// next tasks:  implement dynamic URLs (see tutorial at https://nextjs.org/learn-pages-router/basics/dynamic-routes)
-// re-factor the props sent to imageBox
-// move async function somewhere better
-
-async function get_groups() {
-  const file = await fs.readFile(process.cwd() + '/public/images.json', 'utf8');
-  return file;
-}
+import { getImageJSONData } from '@/lib/groups';
 
 export default async function Home() {
   // const [group, setGroup] = useState(0);
-  const group_string = await(get_groups());
+  const group_string = await(getImageJSONData());
   const groups = JSON.parse(group_string);
 
   return (
