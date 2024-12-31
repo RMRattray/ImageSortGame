@@ -1,6 +1,5 @@
-import Link from 'next/link';
-import { promises as fs } from 'fs';
 import { PageLinkBox } from '@/components/linkbox';
+import { promises as fs } from 'fs';
 
 // next tasks:  implement dynamic URLs (see tutorial at https://nextjs.org/learn-pages-router/basics/dynamic-routes)
 // re-factor the props sent to imageBox
