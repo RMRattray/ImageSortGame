@@ -58,5 +58,65 @@
                 {"filename":"Rabbit_Lake.jpg", "name":"Wind Cave", "isSetMember":true }
             ],
         "show_captions":true
+    }, 
+    {
+        "folder":"nobels",
+        "groupdesc":"Select all Nobel Prize winners.  Most non-winners depicted are deceased to prevent future inaccuracy.",
+        "files":
+            [
+                {"filename":"Al_Gore.jpg", "name":"Al Gore", "isSetMember":true },
+                {"filename":"Alan_Turing.jpg", "name":"Alan Turing", "isSetMember":false },
+                {"filename":"Angelou.jpg", "name":"Maya Angelou", "isSetMember":false },
+                {"filename":"Henry_Waxman.jpg", "name":"Henry Heimlich", "isSetMember":false },
+                {"filename":"Martin_Luther_King,_Jr..jpg", "name":"Martin Luther King, Jr.", "isSetMember":true },
+                {"filename":"Neil_Tyson.jpg", "name":"Neil DeGrasse Tyson", "isSetMember":false },
+                {"filename":"President_Barack_Obama.jpg", "name":"Barack Obama", "isSetMember":true },
+                {"filename":"R.jpg", "name":"Albert Einstein", "isSetMember":true },
+                {"filename":"Rosalind_Franklin_(retouched).jpg", "name":"Rosalind Franklin", "isSetMember":false },
+                {"filename":"Sartre_1967_crop.jpg", "name":"Jean-Paul Sartre", "isSetMember":true },
+                {"filename":"Stephen_Hawking.jpg", "name":"Stephen Hawking", "isSetMember":false },
+                {"filename":"William_Golding.jpg", "name":"William Golding", "isSetMember":true }
+            ],
+        "show_captions":true
+    }, 
+    {
+        "folder":"airports",
+        "groupdesc":"Which metropolitan areas have multiple airports?",
+        "files":
+            [
+                {"filename":"Amsterdam.jpg", "name":"Amsterdam", "isSetMember":false },
+                {"filename":"Barcelona.jpg", "name":"Barcelona", "isSetMember":true },
+                {"filename":"Dallasdowntown2023.jpg", "name":"Dallas", "isSetMember":true },
+                {"filename":"Dubai.jpg", "name":"Dubai", "isSetMember":false },
+                {"filename":"Gare-New-Delhi.JPG", "name":"Delhi", "isSetMember":false },
+                {"filename":"Istanbul.jpg", "name":"Istanbul", "isSetMember":true },
+                {"filename":"London.jpg", "name":"London", "isSetMember":true },
+                {"filename":"Madrid.jpg", "name":"Madrid", "isSetMember":false },
+                {"filename":"Milan.jpg", "name":"Milan", "isSetMember":true },
+                {"filename":"Mumbai_Skyline_at_night.jpg", "name":"Mumbai", "isSetMember":false },
+                {"filename":"OIP.jpg", "name":"Guangzhou", "isSetMember":true },
+                {"filename":"Phoenix.jpg", "name":"Phoenix", "isSetMember":true }
+            ],
+        "show_captions":true
+    }, 
+    {
+        "folder":"Vancouver",
+        "groupdesc":"A lot of media, especially taking place Anytown, USA, is filmed in Vancouver - can you identify which pictures are really Vancouver?",
+        "files":
+            [
+                {"filename":"Adelaide.jpg", "name":"Adelaide<br/><i>Duncan Cumming</i>", "isSetMember":false },
+                {"filename":"Baltimore.jpg", "name":"Baltimore<br/><i>mk30</i>", "isSetMember":true },
+                {"filename":"Granville_St.jpg", "name":"Vancouver (Granville St)<br/><i>Hugh Llewelyn</i>", "isSetMember":true },
+                {"filename":"Honolulu.jpg", "name":"Honolulu<br/><i>Ashlynn Pai</i>", "isSetMember":false },
+                {"filename":"Karin_Xan_2.jpg", "name":"Vancouver<br/><i>Karin Xan</i>", "isSetMember":false },
+                {"filename":"Mae.jpg", "name":"Vancouver<br/><i>Maemae</i>", "isSetMember":true },
+                {"filename":"Minneapolis.jpg", "name":"Minneapolis<br/><i>Chris Yunker</i>", "isSetMember":true },
+                {"filename":"Karin_Xan.jpg", "name":"Vancouver<br/><i>Karin Xan</i>", "isSetMember":false },
+                {"filename":"Schwartz.jpg", "name":"Vancouver<br/><i>5chw4r7z</i>", "isSetMember":true },
+                {"filename":"Nashville.jpg", "name":"Nashville<br/><i>Luca Sartoni</i>", "isSetMember":false },
+                {"filename":"Scott_Beale.jpg", "name":"Vancouver<br/><i>Scott Beale</i>", "isSetMember":true },
+                {"filename":"Tucson.jpg", "name":"Tucson<br/><i>Daniel Lobo</i>", "isSetMember":true }
+            ],
+        "show_captions":false 
     }
 ]
