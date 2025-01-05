@@ -7,7 +7,7 @@ export default async function Home() {
   const groups = JSON.parse(group_string);
 
   return (
-    <main className="flex min-h-screen flex-col items-center p-24">
+    <main className="flex min-h-screen flex-col items-center p-8">
       <div className="w-3/4">
         <h1 className="text-3xl text-center w-full">Image Sort Game</h1>
         <p>Inspired by my grandmother&apos;s claim that she can tell my cousins apart (I cannot),
