@@ -5,8 +5,8 @@ import "./globals.css";
 const lusitana = Lusitana({ weight:"400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Image Classification Game",
-  description: "A game in which the user clicks images and scores if they are members of a set",
+  title: "National Recording Registry",
+  description: "A deep dive into America's audio legacy - with the dev's portfolio attached for their convenience.",
 };
 
 export default function RootLayout({

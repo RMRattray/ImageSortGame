@@ -1,5 +1,11 @@
 import { PageLinkBox } from '@/components/linkbox';
 import { getImageJSONData } from '@/lib/groups';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Image Classification Game",
+  description: "A game in which the user clicks images and scores if they are members of a set",
+};
 
 export default async function Home() {
   // const [group, setGroup] = useState(0);
