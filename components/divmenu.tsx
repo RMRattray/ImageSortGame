@@ -11,13 +11,14 @@ export default function DivMenu( { token, property, prop_er_name, options, state
     return (
     <div>
         <h2 className="text-xl w-full">{prop_er_name}</h2>
-        <div className="w-full flex flex-row p-5 m-2">
+        <div className="w-full flex flex-row p-3 m-2">
         {options.map( (option) => { return(
-            <button className={clsx("flex-grow m-5 p-2",
+            <button className={clsx("flex-grow m-1 p-2",
                 {"bg-green-500" : state_access[property] == option.value, "bg-gray-500" : state_access[property] != option.value})}
                 onClick={() => {
                     dispatch_access({type: token, val: option.value})
                 }}
+                key={property+"_"+option.display}
                 >{option.display}</button>
             )})}
         </div>

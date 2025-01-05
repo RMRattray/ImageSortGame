@@ -46,10 +46,12 @@ export default function Page() {
                 return {...state, ...{takeable: action.val as number}};
             case "player_move":
                 state.nimGameCopy?.player_move(action.val as number)
+                setTimeout( () => { affectGame({type: "start_ai_move"}); }, 500);
                 return {...state, ...state.nimGameCopy, ...{takeable: 0, player_turn: false}}
             case "start_ai_move":
                 state.nimGameCopy?.ai_move();
-                return {...state, ...{taking: state.nimGameCopy ? state.nimGameCopy.taken : state.taken - state.taken}}
+                setTimeout( () => { affectGame({type: "ai_move"}); }, 500);
+                return {...state, ...{taking: (state.nimGameCopy ? state.nimGameCopy.taken : state.taken) - state.taken}}
             case "ai_move":
                 return {...state, ...state.nimGameCopy, ...{taking: 0, player_turn: true}}
             default:
@@ -87,9 +89,8 @@ export default function Page() {
                     [{display:"Last player wins", value:false}, {display:"Last player loses", value:true}]
                 }/>
                 <DivMenu token={"set_quantity"} property={"total"} prop_er_name={"Choose how many matches"} state_access={gameRunner} dispatch_access={affectGame} options={
-                    Array(9).map( (val, ind) => { val = ind + 12; return {display: val as string, value: val}; })
+                    Array.from(Array(9).keys()).map( (val) => { val = val + 12; return {display: val as unknown as string, value: val}; })
                 }/>
-                <h3>{gameRunner.ai_type as number}</h3>
                 <button className="text-2xl" onClick={() => { affectGame({ type: "start_game" })}}>Start game</button>
             </div>
             <div className={clsx({"hidden": !gameRunner.game_started})}>
