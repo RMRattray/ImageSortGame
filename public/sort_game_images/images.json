@@ -105,17 +105,17 @@
         "files":
             [
                 {"filename":"Adelaide.jpg", "name":"Adelaide<br/><i>Duncan Cumming</i>", "isSetMember":false },
-                {"filename":"Baltimore.jpg", "name":"Baltimore<br/><i>mk30</i>", "isSetMember":true },
+                {"filename":"Baltimore.jpg", "name":"Baltimore<br/><i>mk30</i>", "isSetMember":false },
                 {"filename":"Granville_St.jpg", "name":"Vancouver (Granville St)<br/><i>Hugh Llewelyn</i>", "isSetMember":true },
                 {"filename":"Honolulu.jpg", "name":"Honolulu<br/><i>Ashlynn Pai</i>", "isSetMember":false },
-                {"filename":"Karin_Xan_2.jpg", "name":"Vancouver<br/><i>Karin Xan</i>", "isSetMember":false },
+                {"filename":"Karin_Xan_2.jpg", "name":"Vancouver<br/><i>Karin Xan</i>", "isSetMember":true },
                 {"filename":"Mae.jpg", "name":"Vancouver<br/><i>Maemae</i>", "isSetMember":true },
-                {"filename":"Minneapolis.jpg", "name":"Minneapolis<br/><i>Chris Yunker</i>", "isSetMember":true },
-                {"filename":"Karin_Xan.jpg", "name":"Vancouver<br/><i>Karin Xan</i>", "isSetMember":false },
+                {"filename":"Minneapolis.jpg", "name":"Minneapolis<br/><i>Chris Yunker</i>", "isSetMember":false },
+                {"filename":"Karin_Xan.jpg", "name":"Vancouver<br/><i>Karin Xan</i>", "isSetMember":true },
                 {"filename":"Schwartz.jpg", "name":"Vancouver<br/><i>5chw4r7z</i>", "isSetMember":true },
                 {"filename":"Nashville.jpg", "name":"Nashville<br/><i>Luca Sartoni</i>", "isSetMember":false },
                 {"filename":"Scott_Beale.jpg", "name":"Vancouver<br/><i>Scott Beale</i>", "isSetMember":true },
-                {"filename":"Tucson.jpg", "name":"Tucson<br/><i>Daniel Lobo</i>", "isSetMember":true }
+                {"filename":"Tucson.jpg", "name":"Tucson<br/><i>Daniel Lobo</i>", "isSetMember":false }
             ],
         "show_captions":false 
     }
