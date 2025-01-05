@@ -1,4 +1,4 @@
-enum AI_type {
+export enum AI_type {
     Random, StepAhead, Perfect
 }
 
@@ -7,16 +7,22 @@ export class NimGame {
     taken: number;
     ai_type: AI_type;
     last_player_loses: boolean;
+    game_started: boolean;
     game_over: boolean;
+    player_starts: boolean;
     player_wins: boolean;
+    playing: boolean;
 
-    constructor(count: number, ai_type: AI_type, last_player_loses: boolean) {
+    constructor(count: number, ai_type: AI_type, player_starts: boolean, last_player_loses: boolean) {
         this.total = count;
         this.taken = 0;
         this.ai_type = ai_type;
         this.last_player_loses = last_player_loses;
+        this.game_started = false;
         this.game_over = false;
         this.player_wins = true;
+        this.playing = true;
+        this.player_starts = true;
     }
 
     player_move(count: number) {
