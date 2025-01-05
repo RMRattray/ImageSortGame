@@ -105,7 +105,7 @@ export default function Page() {
                     <div className={clsx("space-x-2", {"hidden": !gameRunner.game_over})}>
                         <button className="bg-green-500 p-2 rounded-full" onClick={() => {affectGame({ type: "start_game" })}}>Start over</button>
                         <button className="bg-green-500 p-2 rounded-full" onClick={() => {affectGame({ type: "settings" })}}>Game settings</button>
-                        <Link href="./"><button className="bg-green-500 p-2 rounded-full">Back to gallery</button></Link>
+                        <Link href="../"><button className="bg-green-500 p-2 rounded-full">Back to gallery</button></Link>
                     </div>
                 </div>
                 <NimDisplay total={gameRunner.total} takeable={gameRunner.takeable} taken={gameRunner.taken} taking={gameRunner.taking}/>

@@ -23,7 +23,7 @@ function IdentImage( { source, name, isSetMember, showCaptions, guessed, guess, 
 function ReturnButton( { guesses } : { guesses: number} ) {
   return(
     <div className='absolute right-2'>
-      <Link href="../image_sort_game">
+      <Link href="../">
         <button className={clsx('bg-green-500 m-2 p-2', {"hidden" : guesses > 0, "visible" : guesses <= 0 })}>Return home</button>
       </Link>
     </div>

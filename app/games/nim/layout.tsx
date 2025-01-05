@@ -5,7 +5,7 @@ const lusitana = Lusitana({ weight:"400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
     title: "NRR Games - Nim",
-    description: "The classic, long-solved two-player game of Nim",
+    description: "The classic, long-solved two-player game of Nim"
   };
 
 export default function RootLayout({
