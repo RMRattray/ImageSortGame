@@ -12,7 +12,7 @@
                 {"filename":"leaf_footed_bug.jpg", "name":"Leaf-footed bug<br/><i>Leptoglossus nymph</i>", "isSetMember":true },
                 {"filename":"maybug.jpg", "name":"Maybug<br/><i>Melolontha melolontha</i>", "isSetMember":false },
                 {"filename":"rhino_beetle.jpg", "name":"Rhinoceros beetle<br/><i>Oryctes nasicornis</i>", "isSetMember":false },
-                {"filename":"seed_bug.jpg", "name":"Seed bug<br/><i>Titanus giganteus</i>", "isSetMember":true },
+                {"filename":"seed_bug.jpg", "name":"Seed bug<br/><i>Melacoryphus lateralis</i>", "isSetMember":true },
                 {"filename":"stink_bug.jpg", "name":"Stink bug<br/><i>Atelocera</i>", "isSetMember":true },
                 {"filename":"titan_beetle.jpg", "name":"Titan beetle<br/><i>Titanus giganteus</i>", "isSetMember":false },
                 {"filename":"flower_bug.jpg", "name":"Flower bug<br/><i>Orius insidiosus</i>", "isSetMember":true }
@@ -38,5 +38,25 @@
                 {"filename":"scott.jpg", "name":"Winfield Scott<br/>Whig nominee, 1852", "isSetMember":false }
             ],
         "show_captions":false
+    }, 
+    {
+        "folder":"parks",
+        "groupdesc":"If you can't afford to travel to a national park, see if you can distinguish which landmarks are in national parks.",
+        "files":
+            [
+                {"filename":"Apple_Pie_Hill.jpg", "name":"Apple Pie Hill", "isSetMember":false },
+                {"filename":"Cassidy_Arch.jpg", "name":"Cassidy Arch", "isSetMember":true },
+                {"filename":"Fort_Miles.jpg", "name":"Fort Miles", "isSetMember":false },
+                {"filename":"Lake_Clark.jpg", "name":"Lake Clark", "isSetMember":true },
+                {"filename":"Lake_MacBride.jpg", "name":"Lake MacBride", "isSetMember":false },
+                {"filename":"Ledges_Overlook.jpg", "name":"Ledges Overlook", "isSetMember":true },
+                {"filename":"Mount_Lassen.jpg", "name":"Lassen Peak", "isSetMember":true },
+                {"filename":"Mt_Moran.jpg", "name":"Mount Moran", "isSetMember":true },
+                {"filename":"Mushroom_Rock.jpg", "name":"Mushroom Rock", "isSetMember":false },
+                {"filename":"North_Lookout_Brown_County.jpg", "name":"North Lookout", "isSetMember":false },
+                {"filename":"Wind_Cave.jpg", "name":"Rabbit Lake", "isSetMember":false },
+                {"filename":"Rabbit_Lake.jpg", "name":"Wind Cave", "isSetMember":true }
+            ],
+        "show_captions":true
     }
 ]
