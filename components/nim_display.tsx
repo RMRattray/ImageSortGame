@@ -16,6 +16,22 @@ export function NimDisplay({ total, taken, takeable, taking }:
     </div>)
 }
 
+export function NiminDisplay({ total, taken, takeable, taking, values }:
+    { total: number, taken: number, takeable: number, taking: number, values: Array<number>}) {
+
+    return(<div className="w-full flex flex-row">
+        {values.map( (val, ind) => { ind = ind + 1; return(
+            <div key={"match_"+ind} className={clsx("p-2 flex-grow m-2 rounded-sm text-3xl text-center", {
+                "bg-green-500": ind > taken + takeable + taking,
+                "bg-yellow-500": taken < ind && ind <= taken + takeable,
+                "bg-orange-500": taken < ind && ind <= taken + taking,
+                "bg-gray-500": ind <= taken
+            })}>{val}
+            </div>
+        )})}
+    </div>)
+}
+
 export function NimButtons({ dispatch_access, player_turn } : { dispatch_access: Function, player_turn: boolean}) {
     return (
         <div className="w-full flex flex-row">
@@ -27,3 +43,4 @@ export function NimButtons({ dispatch_access, player_turn } : { dispatch_access:
         </div>
     )
 }
+

@@ -60,7 +60,7 @@ Rabbit Lake, Frank Kovalchek<br/>
 Nobel Prizes<br/>
 Rosalind Franklin, MagentaGreen (WC)<br/>
 Turing, Gore, Einstein, Angelou, Obama, Hawking - PD, WC <br/>
-Al Gore - PD (because it's a government work), WC <br/>
+Al Gore - PD, WC <br/>
 Martin Luther King, Jr. - Nobel Foundation via WC<br/>
 Jean-Paul Sartre - Government Press Office, Flickr <br/>
 William Golding - Dutch National Archive<br/>
